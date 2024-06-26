@@ -48,8 +48,8 @@ figcaption {
 @media (min-width: 772px) {
     .img-figure {
         border-radius: 50%;
+        border-color:pink;
     }
-
     .col-md-6:last-child {
         grid-column: span 2;
         align-content: center;
@@ -59,6 +59,7 @@ figcaption {
 @media (min-width: 992px) {
     .img-figure {
         border-radius: 0;
+        border-color:red;
     }
 
     .col-lg-4:nth-of-type(3n) {
@@ -72,7 +73,7 @@ figcaption {
     }
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
     body {
         background-color: #000000;
         color: #ddd;
@@ -87,4 +88,4 @@ figcaption {
     .figure-caption {
         color: #ffd700;
     }
-}
+}*/
