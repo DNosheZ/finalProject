@@ -3,13 +3,13 @@ html {
 }
 
 
-    body {
+body {
         background-color: #dedede;
         padding: 5px;
         margin: 15px;
         font-size: 25px;
         font-family: Arial, sans-serif;
-    }
+}
 
 
 h1 {
@@ -71,21 +71,27 @@ figcaption {
     html {
         scroll-behavior: auto;
     }
+    #scrollUp {
+        pointer-events: none; 
+        color: gray; 
+        text-decoration: none; 
+    }
 }
 
-/*@media (prefers-color-scheme: dark) {
-    body {
+@media (prefers-color-scheme: dark) {
+    body, .container {
         background-color: #000000;
         color: #ddd;
     }
 
+
     .img-figure {
         background-color: #222;
         color: #fff;
-        border-color: #000;
+        border-color: #ddd;
     }
 
     .figure-caption {
         color: #ffd700;
     }
-}*/
+}
